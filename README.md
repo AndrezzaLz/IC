@@ -4,6 +4,8 @@ Este repositório contém os códigos e rotinas de análise de dados desenvolvid
 
 O foco principal do estudo é a aplicação de técnicas de mineração de dados, especificamente o algoritmo Apriori, para identificar padrões e regras de associação na incidência de casos oncológicos, considerando variáveis demográficas e regionais (como dados de Porto Alegre e Belém, que foram obtidos dos RCBPs das respectivas cidades).
 
+O projeto foi originalmente produzido inteiramente no google colab, por esse motivo as bases de dados utilizadas não estão aqui pois ultrapassam o limite que o Github permite, porém em próximas atualizações deste repositório será colocado um .gitignore para fazer o upload das bases que realmente foram o foco da análise.
+
 **Estrutura do Repositório**
 
 A análise está dividida em módulos sequenciais que refletem as etapas de desenvolvimento do projeto:
