@@ -10,9 +10,9 @@ O projeto foi originalmente produzido inteiramente no google colab, por esse mot
 
 A análise está dividida em módulos sequenciais que refletem as etapas de desenvolvimento do projeto:
 
-**ic_parte1.py (Pré-processamento e AED):** Responsável pela leitura das bases de dados, limpeza estrutural e mapeamento dos Códigos da Topografia (ex: conversão de códigos C73 para descrições legíveis). Além disso, também realiza a segmentação dos dados por gênero, isolando os conjuntos para análises mais precisas e removendo inconsistências na base.
+**ic_parte1.py (Pré-processamento e AED):** Responsável pela leitura das bases de dados, limpeza estrutural e mapeamento dos Códigos da Topografia (ex: conversão de códigos C73 para descrições legíveis). Além disso, também realiza a segmentação dos dados por gênero, isolando os conjuntos para análises mais precisas e removendo inconsistências na base.A base de dados original está disponível para download no link: **https://www.inca.gov.br/BasePopIncidencias/Home.action **
 
-**otimizada_ic_parte2_fem.py (Mineração de Dados e Regras de Associação):** Focado na extração de regras no subconjunto de dados feminino. O código segmenta a base por Raça/Cor (Branca, Parda e Preta) e aplica o algoritmo Apriori para encontrar padrões frequentes. O modelo foca em métricas rigorosas, filtrando apenas regras que apresentem um valor de Lift superior a 1.0, garantindo a relevância estatística das associações encontradas.
+**ic_parte2_algoritmo_de_associacao.py (Mineração de Dados e Regras de Associação):** Focado na extração de regras no subconjunto de dados. O código segmenta a base por Raça/Cor (Branca, Parda e Preta) e aplica o algoritmo Apriori para encontrar padrões frequentes. O modelo foca em métricas rigorosas, filtrando apenas regras que apresentem um valor de Lift superior a 1.0, garantindo a relevância estatística das associações encontradas.
 
 **Tecnologias e Bibliotecas Utilizadas**
 
