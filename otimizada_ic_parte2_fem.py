@@ -112,7 +112,7 @@ display(df_regras_preta)
 from google.colab import sheets
 sheet = sheets.InteractiveSheet(df=df_regras_preta)
 
-# Supondo que o suporte da regra seja 0.01
+# Supondo que o suporte da regra seja 0.018
 suporte = 0.018
 total_registros = len(df_parda)
 quantidade_absoluta = suporte * total_registros
